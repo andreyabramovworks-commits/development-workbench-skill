@@ -1,0 +1,10 @@
+{
+  "component": "src/features/example/ExamplePanel.tsx",
+  "export": "default",
+  "styles": ["src/index.css"],
+  "states": [
+    {"name": "Обычное", "props": {"items": [{"id": 1, "title": "Первый элемент"}]}},
+    {"name": "Пусто", "props": {"items": []}},
+    {"name": "Ошибка", "props": {"error": "Не удалось загрузить данные"}}
+  ]
+}
